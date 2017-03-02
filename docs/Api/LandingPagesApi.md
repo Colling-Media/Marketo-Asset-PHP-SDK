@@ -1,4 +1,4 @@
-# Swagger\Client\LandingPagesApi
+# CollingMedia\Client\LandingPagesApi
 
 All URIs are relative to *https://052-SXI-468.mktorest.com/*
 
@@ -30,7 +30,7 @@ Approves the current draft of the landing page
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\LandingPagesApi();
+$api_instance = new CollingMedia\Client\Api\LandingPagesApi();
 $id = 56; // int | id
 
 try {
@@ -75,7 +75,7 @@ Retrieves a list of accessible landing pages from the target instance
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\LandingPagesApi();
+$api_instance = new CollingMedia\Client\Api\LandingPagesApi();
 $name = "name_example"; // string | Name of the landing page
 $status = "status_example"; // string | Status filter for draft or approved versions
 $folder = "folder_example"; // string | JSON representation of parent folder, with members 'id', and 'type' which may be 'Folder' or 'Program'
@@ -124,7 +124,7 @@ Clones the target landing page
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\LandingPagesApi();
+$api_instance = new CollingMedia\Client\Api\LandingPagesApi();
 $id = 56; // int | id
 $clone_landing_page_request = new \CollingMedia\Client\Model\CloneLandingPageRequest(); // \CollingMedia\Client\Model\CloneLandingPageRequest | cloneLandingPageRequest
 
@@ -171,7 +171,7 @@ Creates a new landing page
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\LandingPagesApi();
+$api_instance = new CollingMedia\Client\Api\LandingPagesApi();
 $create_landing_page_request = new \CollingMedia\Client\Model\CreateLandingPageRequest(); // \CollingMedia\Client\Model\CreateLandingPageRequest | createLandingPageRequest
 
 try {
@@ -216,7 +216,7 @@ Deletes the target landing page
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\LandingPagesApi();
+$api_instance = new CollingMedia\Client\Api\LandingPagesApi();
 $id = 56; // int | id
 
 try {
@@ -261,7 +261,7 @@ Discards the current draft of the landing page
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\LandingPagesApi();
+$api_instance = new CollingMedia\Client\Api\LandingPagesApi();
 $id = 56; // int | id
 
 try {
@@ -306,7 +306,7 @@ Returns the landning record for the given id
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\LandingPagesApi();
+$api_instance = new CollingMedia\Client\Api\LandingPagesApi();
 $id = 56; // int | id
 $status = "status_example"; // string | Status filter for draft or approved versions
 
@@ -353,7 +353,7 @@ Returns the landing page record for the given name
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\LandingPagesApi();
+$api_instance = new CollingMedia\Client\Api\LandingPagesApi();
 $name = "name_example"; // string | Name of the landing page
 $status = "status_example"; // string | Status filter for draft or approved versions
 $max_return = 56; // int | Maximum number of channels to return.  Max 200, default 20
@@ -402,7 +402,7 @@ getVariables
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\LandingPagesApi();
+$api_instance = new CollingMedia\Client\Api\LandingPagesApi();
 $id = 56; // int | id
 $status = new \CollingMedia\Client\Model\LpStatusRequest(); // \CollingMedia\Client\Model\LpStatusRequest | status
 
@@ -449,7 +449,7 @@ Unapproves the landing page, reverting it to a draft-only state
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\LandingPagesApi();
+$api_instance = new CollingMedia\Client\Api\LandingPagesApi();
 $id = 56; // int | id
 
 try {
@@ -494,7 +494,7 @@ Updates the metadata for the targe landing page
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\LandingPagesApi();
+$api_instance = new CollingMedia\Client\Api\LandingPagesApi();
 $id = 56; // int | id
 $update_landing_page_request = new \CollingMedia\Client\Model\UpdateLandingPageRequest(); // \CollingMedia\Client\Model\UpdateLandingPageRequest | updateLandingPageRequest
 
@@ -539,7 +539,7 @@ updateLandingPageVariable
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\LandingPagesApi();
+$api_instance = new CollingMedia\Client\Api\LandingPagesApi();
 $id = 56; // int | id
 $variable_id = "variable_id_example"; // string | variableId
 $value = 56; // int | New value of the variable

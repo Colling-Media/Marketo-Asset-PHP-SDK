@@ -1,4 +1,4 @@
-# Swagger\Client\FilesApi
+# CollingMedia\Client\FilesApi
 
 All URIs are relative to *https://052-SXI-468.mktorest.com/*
 
@@ -22,7 +22,7 @@ Creates a new file from the included payload
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\FilesApi();
+$api_instance = new CollingMedia\Client\Api\FilesApi();
 $create_file_request = new \CollingMedia\Client\Model\CreateFileRequest(); // \CollingMedia\Client\Model\CreateFileRequest | createFileRequest
 
 try {
@@ -67,7 +67,7 @@ Returns the file record for the given id
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\FilesApi();
+$api_instance = new CollingMedia\Client\Api\FilesApi();
 $id = 56; // int | id
 
 try {
@@ -112,7 +112,7 @@ Returns files records for the given name
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\FilesApi();
+$api_instance = new CollingMedia\Client\Api\FilesApi();
 $name = "name_example"; // string | Name of the file
 
 try {
@@ -157,7 +157,7 @@ Returns the files from the given folder
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\FilesApi();
+$api_instance = new CollingMedia\Client\Api\FilesApi();
 $get_files_request = new \CollingMedia\Client\Model\GetFilesRequest(); // \CollingMedia\Client\Model\GetFilesRequest | getFilesRequest
 $folder = "folder_example"; // string | JSON representation of parent folder, with members 'id', and 'type' which may be 'Folder' or 'Program'
 

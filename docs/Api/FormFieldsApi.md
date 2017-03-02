@@ -1,4 +1,4 @@
-# Swagger\Client\FormFieldsApi
+# CollingMedia\Client\FormFieldsApi
 
 All URIs are relative to *https://052-SXI-468.mktorest.com/*
 
@@ -28,7 +28,7 @@ Adds a field set to the target form
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\FormFieldsApi();
+$api_instance = new CollingMedia\Client\Api\FormFieldsApi();
 $id = 56; // int | id
 $add_form_field_set_request = new \CollingMedia\Client\Model\AddFormFieldSetRequest(); // \CollingMedia\Client\Model\AddFormFieldSetRequest | addFormFieldSetRequest
 
@@ -75,7 +75,7 @@ Adds a field to a form
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\FormFieldsApi();
+$api_instance = new CollingMedia\Client\Api\FormFieldsApi();
 $id = 56; // int | id
 $add_form_field_set_request = new \CollingMedia\Client\Model\AddFormFieldRequest(); // \CollingMedia\Client\Model\AddFormFieldRequest | addFormFieldSetRequest
 
@@ -122,7 +122,7 @@ Adds a visibility rule to the target form field
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\FormFieldsApi();
+$api_instance = new CollingMedia\Client\Api\FormFieldsApi();
 $form_id = 56; // int | formId
 $field_id = "field_id_example"; // string | fieldId
 $add_form_field_visibility_request = new \CollingMedia\Client\Model\AddFormFieldVisibilityRequest(); // \CollingMedia\Client\Model\AddFormFieldVisibilityRequest | addFormFieldVisibilityRequest
@@ -171,7 +171,7 @@ Adds a rich-text type field to the form
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\FormFieldsApi();
+$api_instance = new CollingMedia\Client\Api\FormFieldsApi();
 $id = 56; // int | id
 $add_rich_text_request = new \CollingMedia\Client\Model\AddRichTextRequest(); // \CollingMedia\Client\Model\AddRichTextRequest | addRichTextRequest
 
@@ -218,7 +218,7 @@ Removes the target field from the fieldset
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\FormFieldsApi();
+$api_instance = new CollingMedia\Client\Api\FormFieldsApi();
 $id = 56; // int | id
 $field_set_id = "field_set_id_example"; // string | fieldSetId
 $field_id = "field_id_example"; // string | fieldId
@@ -267,7 +267,7 @@ Deletes a field from a form
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\FormFieldsApi();
+$api_instance = new CollingMedia\Client\Api\FormFieldsApi();
 $id = 56; // int | id
 $field_id = "field_id_example"; // string | fieldId
 
@@ -314,7 +314,7 @@ Retrieves a list of all valids fields for use in forms
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\FormFieldsApi();
+$api_instance = new CollingMedia\Client\Api\FormFieldsApi();
 $max_return = 56; // int | Maximum number of channels to return.  Max 200, default 20
 $offset = 56; // int | Integer offset for paging
 
@@ -361,7 +361,7 @@ Retrieves the list of fields in the target form
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\FormFieldsApi();
+$api_instance = new CollingMedia\Client\Api\FormFieldsApi();
 $id = 56; // int | id
 $status = "status_example"; // string | Status filter for draft or approved versions
 
@@ -408,7 +408,7 @@ Reorders the list of fields in a form
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\FormFieldsApi();
+$api_instance = new CollingMedia\Client\Api\FormFieldsApi();
 $id = 56; // int | id
 $re_arrange_request = new \CollingMedia\Client\Model\ReArrangeRequest(); // \CollingMedia\Client\Model\ReArrangeRequest | reArrangeRequest
 
@@ -455,7 +455,7 @@ Updates the configuration for that target field
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\FormFieldsApi();
+$api_instance = new CollingMedia\Client\Api\FormFieldsApi();
 $id = 56; // int | id
 $field_id = "field_id_example"; // string | fieldId
 $update_form_field_request = new \CollingMedia\Client\Model\UpdateFormFieldRequest(); // \CollingMedia\Client\Model\UpdateFormFieldRequest | updateFormFieldRequest

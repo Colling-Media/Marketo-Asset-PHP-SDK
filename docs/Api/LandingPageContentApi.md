@@ -1,4 +1,4 @@
-# Swagger\Client\LandingPageContentApi
+# CollingMedia\Client\LandingPageContentApi
 
 All URIs are relative to *https://052-SXI-468.mktorest.com/*
 
@@ -24,7 +24,7 @@ Adds a content section to the target landing page
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\LandingPageContentApi();
+$api_instance = new CollingMedia\Client\Api\LandingPageContentApi();
 $id = 56; // int | id
 $request = new \CollingMedia\Client\Model\CreateLandingPageContentRequest(); // \CollingMedia\Client\Model\CreateLandingPageContentRequest | request
 
@@ -71,7 +71,7 @@ Retrieves the list of content sections in the target landing page
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\LandingPageContentApi();
+$api_instance = new CollingMedia\Client\Api\LandingPageContentApi();
 $id = 56; // int | id
 $status = "status_example"; // string | Status filter for draft or approved versions
 
@@ -118,7 +118,7 @@ Retrieves the dynamic content from the target section
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\LandingPageContentApi();
+$api_instance = new CollingMedia\Client\Api\LandingPageContentApi();
 $id = 56; // int | id
 $content_id = "content_id_example"; // string | Id of the dnamic content section
 
@@ -165,7 +165,7 @@ Removes the target content section from the parent landing page
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\LandingPageContentApi();
+$api_instance = new CollingMedia\Client\Api\LandingPageContentApi();
 $id = 56; // int | id
 $content_id = "content_id_example"; // string | contentId
 
@@ -212,7 +212,7 @@ Updates a content section the landing page
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\LandingPageContentApi();
+$api_instance = new CollingMedia\Client\Api\LandingPageContentApi();
 $id = 56; // int | id
 $content_id = "content_id_example"; // string | contentId
 $request = new \CollingMedia\Client\Model\UpdateLandingPageContentRequest(); // \CollingMedia\Client\Model\UpdateLandingPageContentRequest | request
@@ -261,7 +261,7 @@ Updates the content of the target dynamic content section
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\LandingPageContentApi();
+$api_instance = new CollingMedia\Client\Api\LandingPageContentApi();
 $id = 56; // int | id
 $dynamic_content_id = "dynamic_content_id_example"; // string | dynamicContentId
 $request = new \CollingMedia\Client\Model\UpdateLandingPageDynamicContentRequest(); // \CollingMedia\Client\Model\UpdateLandingPageDynamicContentRequest | request

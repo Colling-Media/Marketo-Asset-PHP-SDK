@@ -1,4 +1,4 @@
-# Swagger\Client\EmailsApi
+# CollingMedia\Client\EmailsApi
 
 All URIs are relative to *https://052-SXI-468.mktorest.com/*
 
@@ -41,7 +41,7 @@ Adds a new module to an email, with the given id
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\EmailsApi();
+$api_instance = new CollingMedia\Client\Api\EmailsApi();
 $id = 56; // int | id
 $module_id = "module_id_example"; // string | moduleId
 $name = "name_example"; // string | Name of the module
@@ -94,7 +94,7 @@ Approves the current draft of an email
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\EmailsApi();
+$api_instance = new CollingMedia\Client\Api\EmailsApi();
 $id = 56; // int | id
 
 try {
@@ -139,7 +139,7 @@ Clones the target email
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\EmailsApi();
+$api_instance = new CollingMedia\Client\Api\EmailsApi();
 $id = 56; // int | id
 $clone_email_request = new \CollingMedia\Client\Model\CloneEmailRequest(); // \CollingMedia\Client\Model\CloneEmailRequest | cloneEmailRequest
 
@@ -186,7 +186,7 @@ Creates a new email asset
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\EmailsApi();
+$api_instance = new CollingMedia\Client\Api\EmailsApi();
 $create_email_request = new \CollingMedia\Client\Model\CreateEmailRequest(); // \CollingMedia\Client\Model\CreateEmailRequest | createEmailRequest
 
 try {
@@ -231,7 +231,7 @@ Deletes the target email
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\EmailsApi();
+$api_instance = new CollingMedia\Client\Api\EmailsApi();
 $id = 56; // int | id
 
 try {
@@ -276,7 +276,7 @@ Deletes the given module from the email
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\EmailsApi();
+$api_instance = new CollingMedia\Client\Api\EmailsApi();
 $id = 56; // int | id
 $module_id = "module_id_example"; // string | moduleId
 
@@ -323,7 +323,7 @@ Discards the current draft of an email
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\EmailsApi();
+$api_instance = new CollingMedia\Client\Api\EmailsApi();
 $id = 56; // int | id
 
 try {
@@ -368,7 +368,7 @@ Creates a copy of the designated module in an email
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\EmailsApi();
+$api_instance = new CollingMedia\Client\Api\EmailsApi();
 $id = 56; // int | id
 $module_id = "module_id_example"; // string | moduleId
 $name = "name_example"; // string | Name of the new module
@@ -417,7 +417,7 @@ Returns an email records by its id
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\EmailsApi();
+$api_instance = new CollingMedia\Client\Api\EmailsApi();
 $id = 56; // int | id
 $status = "status_example"; // string | Status filter for draft or approved versions
 
@@ -464,7 +464,7 @@ Returns an email records based on the given name
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\EmailsApi();
+$api_instance = new CollingMedia\Client\Api\EmailsApi();
 $name = "name_example"; // string | Name of the email
 $status = "status_example"; // string | Status filter for draft or approved versions
 $folder = "folder_example"; // string | JSON representation of parent folder, with members 'id', and 'type' which may be 'Folder' or 'Program'
@@ -513,7 +513,7 @@ Returns the content of the designated email
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\EmailsApi();
+$api_instance = new CollingMedia\Client\Api\EmailsApi();
 $id = 56; // int | id
 $status = "status_example"; // string | Status filter for draft or approved versions
 
@@ -560,7 +560,7 @@ Retrieves the dyanmic content record for the given section
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\EmailsApi();
+$api_instance = new CollingMedia\Client\Api\EmailsApi();
 $id = 56; // int | id
 $dynamic_content_id = "dynamic_content_id_example"; // string | dynamicContentId
 $status = "status_example"; // string | Status filter for draft or approved versions
@@ -609,7 +609,7 @@ Returns a list of emails matching the given filter parameters
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\EmailsApi();
+$api_instance = new CollingMedia\Client\Api\EmailsApi();
 $email_request = new \CollingMedia\Client\Model\EmailRequest(); // \CollingMedia\Client\Model\EmailRequest | emailRequest
 $status = "status_example"; // string | Status filter for draft or approved versions
 $folder = "folder_example"; // string | JSON representation of parent folder, with members 'id', and 'type' which may be 'Folder' or 'Program'
@@ -662,7 +662,7 @@ Returns a list of the available variables in an email
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\EmailsApi();
+$api_instance = new CollingMedia\Client\Api\EmailsApi();
 $id = 56; // int | id
 
 try {
@@ -707,7 +707,7 @@ Rearranges the modules in an email
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\EmailsApi();
+$api_instance = new CollingMedia\Client\Api\EmailsApi();
 $id = 56; // int | id
 $rearrange_modules_request = new \CollingMedia\Client\Model\RearrangeModulesRequest(); // \CollingMedia\Client\Model\RearrangeModulesRequest | rearrangeModulesRequest
 $positions = "positions_example"; // string | JSON array of module positions.  Each position must be a JSON object with members 'index' and a 'moduleId'
@@ -756,7 +756,7 @@ Renames a module
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\EmailsApi();
+$api_instance = new CollingMedia\Client\Api\EmailsApi();
 $id = 56; // int | id
 $module_id = "module_id_example"; // string | moduleId
 $name = "name_example"; // string | New module name
@@ -805,7 +805,7 @@ Sends a sample email to the given email address.  Leads may be impersonated to p
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\EmailsApi();
+$api_instance = new CollingMedia\Client\Api\EmailsApi();
 $id = 56; // int | id
 $send_sample_email_request = new \CollingMedia\Client\Model\SendSampleEmailRequest(); // \CollingMedia\Client\Model\SendSampleEmailRequest | sendSampleEmailRequest
 
@@ -852,7 +852,7 @@ Unapproves the email and reverts it to a draft-only state
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\EmailsApi();
+$api_instance = new CollingMedia\Client\Api\EmailsApi();
 $id = 56; // int | id
 
 try {
@@ -897,7 +897,7 @@ Updates the content in the given section
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\EmailsApi();
+$api_instance = new CollingMedia\Client\Api\EmailsApi();
 $id = 56; // int | id
 $html_id = "html_id_example"; // string | htmlId
 $request = new \CollingMedia\Client\Model\UpdateEmailComponentContentRequest(); // \CollingMedia\Client\Model\UpdateEmailComponentContentRequest | request
@@ -946,7 +946,7 @@ Updates the content of an email
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\EmailsApi();
+$api_instance = new CollingMedia\Client\Api\EmailsApi();
 $id = 56; // int | id
 $update_email_request = new \CollingMedia\Client\Model\UpdateEmailComponentDataRequest(); // \CollingMedia\Client\Model\UpdateEmailComponentDataRequest | updateEmailRequest
 
@@ -993,7 +993,7 @@ Updates dynamic content in the given section
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\EmailsApi();
+$api_instance = new CollingMedia\Client\Api\EmailsApi();
 $id = 56; // int | id
 $dynamic_content_id = "dynamic_content_id_example"; // string | dynamicContentId
 $request = new \CollingMedia\Client\Model\UpdateEmailDynamicContentRequest(); // \CollingMedia\Client\Model\UpdateEmailDynamicContentRequest | request
@@ -1042,7 +1042,7 @@ Updates the metadata of an email asset
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\EmailsApi();
+$api_instance = new CollingMedia\Client\Api\EmailsApi();
 $id = 56; // int | id
 $update_email_request = new \CollingMedia\Client\Model\UpdateEmailMetaDataRequest(); // \CollingMedia\Client\Model\UpdateEmailMetaDataRequest | updateEmailRequest
 
@@ -1089,7 +1089,7 @@ Updates the value of a given variable in an email
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\EmailsApi();
+$api_instance = new CollingMedia\Client\Api\EmailsApi();
 $id = 56; // int | id
 $name = "name_example"; // string | name
 $update_variable_request = new \CollingMedia\Client\Model\UpdateVariableRequest(); // \CollingMedia\Client\Model\UpdateVariableRequest | updateVariableRequest

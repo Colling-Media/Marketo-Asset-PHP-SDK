@@ -1,4 +1,4 @@
-# Swagger\Client\ProgramsApi
+# CollingMedia\Client\ProgramsApi
 
 All URIs are relative to *https://052-SXI-468.mktorest.com/*
 
@@ -28,7 +28,7 @@ Approves the target program.  Only valid for unapproved email programs
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\ProgramsApi();
+$api_instance = new CollingMedia\Client\Api\ProgramsApi();
 $id = 56; // int | id
 
 try {
@@ -73,7 +73,7 @@ Retrieves the list of accessible programs from the target instance
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\ProgramsApi();
+$api_instance = new CollingMedia\Client\Api\ProgramsApi();
 $max_return = 56; // int | Maximum number of channels to return.  Max 200, default 20
 $offset = 56; // int | Integer offset for paging
 $filter_type = "filter_type_example"; // string | Optional filter.  Requires filterValues
@@ -122,7 +122,7 @@ Clones the target program
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\ProgramsApi();
+$api_instance = new CollingMedia\Client\Api\ProgramsApi();
 $id = 56; // int | id
 $clone_program_request = new \CollingMedia\Client\Model\CloneProgramRequest(); // \CollingMedia\Client\Model\CloneProgramRequest | cloneProgramRequest
 
@@ -169,7 +169,7 @@ Creates a new program
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\ProgramsApi();
+$api_instance = new CollingMedia\Client\Api\ProgramsApi();
 $create_program_request = new \CollingMedia\Client\Model\CreateProgramRequest(); // \CollingMedia\Client\Model\CreateProgramRequest | createProgramRequest
 
 try {
@@ -214,7 +214,7 @@ Deletes the target program.  The program may not contain any assets which are in
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\ProgramsApi();
+$api_instance = new CollingMedia\Client\Api\ProgramsApi();
 $id = 56; // int | id
 
 try {
@@ -259,7 +259,7 @@ Retrieves the program record for the given id
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\ProgramsApi();
+$api_instance = new CollingMedia\Client\Api\ProgramsApi();
 $id = 56; // int | id
 
 try {
@@ -304,7 +304,7 @@ Retrieves the program record for the given name
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\ProgramsApi();
+$api_instance = new CollingMedia\Client\Api\ProgramsApi();
 $name = "name_example"; // string | Name of the program
 
 try {
@@ -349,7 +349,7 @@ Retrieves a list of programs matching the tag type and tag values given
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\ProgramsApi();
+$api_instance = new CollingMedia\Client\Api\ProgramsApi();
 $tag_type = "tag_type_example"; // string | Type of program tag
 $tag_value = "tag_value_example"; // string | Value of the tag
 $max_return = 56; // int | Maximum number of channels to return.  Max 200, default 20
@@ -400,7 +400,7 @@ Unapproves the target program.  Only valid for approved email programs
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\ProgramsApi();
+$api_instance = new CollingMedia\Client\Api\ProgramsApi();
 $id = 56; // int | id
 
 try {
@@ -445,7 +445,7 @@ Updates the target program's metadata
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\ProgramsApi();
+$api_instance = new CollingMedia\Client\Api\ProgramsApi();
 $id = 56; // int | id
 $update_program_request = new \CollingMedia\Client\Model\UpdateProgramRequest(); // \CollingMedia\Client\Model\UpdateProgramRequest | updateProgramRequest
 

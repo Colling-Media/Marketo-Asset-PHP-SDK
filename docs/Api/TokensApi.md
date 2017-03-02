@@ -1,4 +1,4 @@
-# Swagger\Client\TokensApi
+# CollingMedia\Client\TokensApi
 
 All URIs are relative to *https://052-SXI-468.mktorest.com/*
 
@@ -21,7 +21,7 @@ Creates a new token in the parent folder
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\TokensApi();
+$api_instance = new CollingMedia\Client\Api\TokensApi();
 $id = 56; // int | id
 $create_token_request = new \CollingMedia\Client\Model\CreateTokenRequest(); // \CollingMedia\Client\Model\CreateTokenRequest | createTokenRequest
 
@@ -68,7 +68,7 @@ Deletes a token with the given name from the parent folder
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\TokensApi();
+$api_instance = new CollingMedia\Client\Api\TokensApi();
 $id = 56; // int | id
 $delete_token_request = new \CollingMedia\Client\Model\DeleteTokenRequest(); // \CollingMedia\Client\Model\DeleteTokenRequest | deleteTokenRequest
 
@@ -115,7 +115,7 @@ Retrieves the list of available My Tokens in the target folder
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\TokensApi();
+$api_instance = new CollingMedia\Client\Api\TokensApi();
 $id = 56; // int | id
 $folder_type = "Folder"; // string | Type of folder.  'Folder' or 'Program'
 

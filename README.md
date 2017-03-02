@@ -56,7 +56,7 @@ Please follow the [installation procedure](#installation--usage) and then run th
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\ChannelsApi();
+$api_instance = new CollingMedia\Client\Api\ChannelsApi();
 $max_return = 56; // int | Maximum number of channels to return.  Max 200, default 20
 $offset = 56; // int | Integer offset for paging
 

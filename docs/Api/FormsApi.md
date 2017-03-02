@@ -1,4 +1,4 @@
-# Swagger\Client\FormsApi
+# CollingMedia\Client\FormsApi
 
 All URIs are relative to *https://052-SXI-468.mktorest.com/*
 
@@ -30,7 +30,7 @@ Approves the current draft of the form.  This will delete the current approved v
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\FormsApi();
+$api_instance = new CollingMedia\Client\Api\FormsApi();
 $id = 56; // int | id
 
 try {
@@ -75,7 +75,7 @@ Retrieves a list of accessible form records from the target instance
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\FormsApi();
+$api_instance = new CollingMedia\Client\Api\FormsApi();
 $folder = "folder_example"; // string | JSON representation of parent folder, with members 'id', and 'type' which may be 'Folder' or 'Program'
 $status = "status_example"; // string | Status filter for draft or approved versions
 $max_return = "max_return_example"; // string | Maximum number of channels to return.  Max 200, default 20
@@ -126,7 +126,7 @@ Clones the target form
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\FormsApi();
+$api_instance = new CollingMedia\Client\Api\FormsApi();
 $id = 56; // int | id
 $clone_form_request = new \CollingMedia\Client\Model\CloneLpFormRequest(); // \CollingMedia\Client\Model\CloneLpFormRequest | cloneFormRequest
 
@@ -173,7 +173,7 @@ Creates a new form
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\FormsApi();
+$api_instance = new CollingMedia\Client\Api\FormsApi();
 $create_form_request = new \CollingMedia\Client\Model\CreateLpFormRequest(); // \CollingMedia\Client\Model\CreateLpFormRequest | createFormRequest
 
 try {
@@ -218,7 +218,7 @@ Deletes the target form.  Forms which are in use by landing pages may not be del
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\FormsApi();
+$api_instance = new CollingMedia\Client\Api\FormsApi();
 $id = 56; // int | id
 
 try {
@@ -263,7 +263,7 @@ Discards the current draft of the form
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\FormsApi();
+$api_instance = new CollingMedia\Client\Api\FormsApi();
 $id = 56; // int | id
 
 try {
@@ -308,7 +308,7 @@ Retrieves a form record by its id
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\FormsApi();
+$api_instance = new CollingMedia\Client\Api\FormsApi();
 $id = 56; // int | id
 $status = "status_example"; // string | Status filter for draft or approved versions
 
@@ -355,7 +355,7 @@ Retrieves a form record by its name
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\FormsApi();
+$api_instance = new CollingMedia\Client\Api\FormsApi();
 $name = "name_example"; // string | Name of the form
 $status = "status_example"; // string | Status filter for draft or approved versions
 $folder = "folder_example"; // string | JSON representation of parent folder, with members 'id', and 'type' which may be 'Folder' or 'Program'
@@ -404,7 +404,7 @@ Returns the thank you page configuration for a given form
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\FormsApi();
+$api_instance = new CollingMedia\Client\Api\FormsApi();
 $id = 56; // int | id
 $status = "status_example"; // string | Status filter for draft or approved versions
 
@@ -451,7 +451,7 @@ Updates the submit button configuration for the target form
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\FormsApi();
+$api_instance = new CollingMedia\Client\Api\FormsApi();
 $id = 56; // int | id
 $submit_button_request = new \CollingMedia\Client\Model\SubmitButtonRequest(); // \CollingMedia\Client\Model\SubmitButtonRequest | submitButtonRequest
 
@@ -498,7 +498,7 @@ Updates the metadata of the target form
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\FormsApi();
+$api_instance = new CollingMedia\Client\Api\FormsApi();
 $id = 56; // int | id
 $update_form_meta_data_request = new \CollingMedia\Client\Model\UpdateFormMetaDataRequest(); // \CollingMedia\Client\Model\UpdateFormMetaDataRequest | updateFormMetaDataRequest
 
@@ -545,7 +545,7 @@ Updates the thank you page configuration for a given form.  This update is destr
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\FormsApi();
+$api_instance = new CollingMedia\Client\Api\FormsApi();
 $id = 56; // int | id
 $thank_you_page_request = new \CollingMedia\Client\Model\UpdateThankYouPageRequest(); // \CollingMedia\Client\Model\UpdateThankYouPageRequest | thankYouPageRequest
 

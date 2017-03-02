@@ -1,4 +1,4 @@
-# Swagger\Client\SnippetsApi
+# CollingMedia\Client\SnippetsApi
 
 All URIs are relative to *https://052-SXI-468.mktorest.com/*
 
@@ -31,7 +31,7 @@ Approves the current draft of the snippet
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\SnippetsApi();
+$api_instance = new CollingMedia\Client\Api\SnippetsApi();
 $id = 56; // int | id
 
 try {
@@ -76,7 +76,7 @@ Clones the target snippet
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\SnippetsApi();
+$api_instance = new CollingMedia\Client\Api\SnippetsApi();
 $id = 56; // int | id
 $clone_snippet_request = new \CollingMedia\Client\Model\CloneSnippetRequest(); // \CollingMedia\Client\Model\CloneSnippetRequest | cloneSnippetRequest
 
@@ -123,7 +123,7 @@ Creates a new snippet
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\SnippetsApi();
+$api_instance = new CollingMedia\Client\Api\SnippetsApi();
 $create_snippet_request = new \CollingMedia\Client\Model\CreateSnippetRequest(); // \CollingMedia\Client\Model\CreateSnippetRequest | createSnippetRequest
 
 try {
@@ -168,7 +168,7 @@ Deletes the target snippet.  The snippet may not be in use by emails or landing 
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\SnippetsApi();
+$api_instance = new CollingMedia\Client\Api\SnippetsApi();
 $id = 56; // int | id
 
 try {
@@ -213,7 +213,7 @@ Discards the current draft of the snippet
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\SnippetsApi();
+$api_instance = new CollingMedia\Client\Api\SnippetsApi();
 $id = 56; // int | id
 
 try {
@@ -258,7 +258,7 @@ Gets the list of dynamic content sections for the snippet
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\SnippetsApi();
+$api_instance = new CollingMedia\Client\Api\SnippetsApi();
 $id = 56; // int | id
 $status = "status_example"; // string | Status filter for draft or approved versions
 
@@ -305,7 +305,7 @@ Retrieves the target snippet record
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\SnippetsApi();
+$api_instance = new CollingMedia\Client\Api\SnippetsApi();
 $id = 56; // int | id
 $status = "status_example"; // string | Status filter for draft or approved versions
 
@@ -352,7 +352,7 @@ Retrieves the content of the target snippet
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\SnippetsApi();
+$api_instance = new CollingMedia\Client\Api\SnippetsApi();
 $id = 56; // int | id
 $status = "status_example"; // string | Status filter for draft or approved versions
 
@@ -399,7 +399,7 @@ Retrieves a list of accessible snippets from the target instance
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\SnippetsApi();
+$api_instance = new CollingMedia\Client\Api\SnippetsApi();
 $status = "status_example"; // string | Status filter for draft or approved versions
 $max_return = 56; // int | Maximum number of channels to return.  Max 200, default 20
 $offset = 56; // int | Integer offset for paging
@@ -448,7 +448,7 @@ Unapproves the current version of the snippet.  The snippet may not be in use.  
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\SnippetsApi();
+$api_instance = new CollingMedia\Client\Api\SnippetsApi();
 $id = 56; // int | id
 
 try {
@@ -493,7 +493,7 @@ Updates the content of the target snippet
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\SnippetsApi();
+$api_instance = new CollingMedia\Client\Api\SnippetsApi();
 $id = 56; // int | id
 $request = new \CollingMedia\Client\Model\UpdateSnippetContentRequest(); // \CollingMedia\Client\Model\UpdateSnippetContentRequest | request
 
@@ -540,7 +540,7 @@ Updates the target dynamic content section
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\SnippetsApi();
+$api_instance = new CollingMedia\Client\Api\SnippetsApi();
 $id = 56; // int | id
 $segment_id = 56; // int | segmentId
 $request = new \CollingMedia\Client\Model\UpdateSnippetDynamicContentRequest(); // \CollingMedia\Client\Model\UpdateSnippetDynamicContentRequest | request
@@ -589,7 +589,7 @@ Updates the metadata of the snippet
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\SnippetsApi();
+$api_instance = new CollingMedia\Client\Api\SnippetsApi();
 $id = 56; // int | id
 $update_snippet_request = new \CollingMedia\Client\Model\UpdateSnippetRequest(); // \CollingMedia\Client\Model\UpdateSnippetRequest | updateSnippetRequest
 

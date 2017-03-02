@@ -1,4 +1,4 @@
-# Swagger\Client\TagsApi
+# CollingMedia\Client\TagsApi
 
 All URIs are relative to *https://052-SXI-468.mktorest.com/*
 
@@ -20,7 +20,7 @@ Retrieves a tag by its name.  This will also return the set of valid values for 
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\TagsApi();
+$api_instance = new CollingMedia\Client\Api\TagsApi();
 $get_tag_by_name_request = new \CollingMedia\Client\Model\GetTagByNameRequest(); // \CollingMedia\Client\Model\GetTagByNameRequest | getTagByNameRequest
 $name = "name_example"; // string | Name of the tag
 
@@ -67,7 +67,7 @@ Retrieves a list of available tag types
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\TagsApi();
+$api_instance = new CollingMedia\Client\Api\TagsApi();
 $max_return = 56; // int | Maximum number of channels to return.  Max 200, default 20
 $offset = 56; // int | Integer offset for paging
 

@@ -1,4 +1,4 @@
-# Swagger\Client\EmailTemplatesApi
+# CollingMedia\Client\EmailTemplatesApi
 
 All URIs are relative to *https://052-SXI-468.mktorest.com/*
 
@@ -30,7 +30,7 @@ Approves the current draft of the email template
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\EmailTemplatesApi();
+$api_instance = new CollingMedia\Client\Api\EmailTemplatesApi();
 $id = 56; // int | id
 
 try {
@@ -75,7 +75,7 @@ Clones the designated email template
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\EmailTemplatesApi();
+$api_instance = new CollingMedia\Client\Api\EmailTemplatesApi();
 $id = 56; // int | id
 $clone_email_template_request = new \CollingMedia\Client\Model\CloneEmailTemplateRequest(); // \CollingMedia\Client\Model\CloneEmailTemplateRequest | cloneEmailTemplateRequest
 
@@ -122,7 +122,7 @@ Creates a new email template
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\EmailTemplatesApi();
+$api_instance = new CollingMedia\Client\Api\EmailTemplatesApi();
 $name = "name_example"; // string | Name of the email template
 $folder = "folder_example"; // string | JSON representation of parent folder, with members 'id', and 'type' which may be 'Folder' or 'Program'
 $content = "content_example"; // string | HTML content of the template
@@ -175,7 +175,7 @@ Deletes the designated email template
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\EmailTemplatesApi();
+$api_instance = new CollingMedia\Client\Api\EmailTemplatesApi();
 $id = 56; // int | id
 
 try {
@@ -220,7 +220,7 @@ Discards the current draft of the email template
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\EmailTemplatesApi();
+$api_instance = new CollingMedia\Client\Api\EmailTemplatesApi();
 $id = 56; // int | id
 
 try {
@@ -265,7 +265,7 @@ Returns a list of email template records accessible in the target instance
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\EmailTemplatesApi();
+$api_instance = new CollingMedia\Client\Api\EmailTemplatesApi();
 $email_template_request = new \CollingMedia\Client\Model\EmailTemplateRequest(); // \CollingMedia\Client\Model\EmailTemplateRequest | emailTemplateRequest
 $status = "status_example"; // string | Status filter for draft or approved versions
 $folder = "folder_example"; // string | JSON representation of parent folder, with members 'id', and 'type' which may be 'Folder' or 'Program'
@@ -314,7 +314,7 @@ Returns an email template record by its id
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\EmailTemplatesApi();
+$api_instance = new CollingMedia\Client\Api\EmailTemplatesApi();
 $id = 56; // int | id
 $status = "status_example"; // string | Status filter for draft or approved versions
 
@@ -361,7 +361,7 @@ Retrieves and email template record by the given name
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\EmailTemplatesApi();
+$api_instance = new CollingMedia\Client\Api\EmailTemplatesApi();
 $name = "name_example"; // string | name
 $status = "status_example"; // string | Status filter for draft or approved versions
 
@@ -408,7 +408,7 @@ Returns the content for a given email template
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\EmailTemplatesApi();
+$api_instance = new CollingMedia\Client\Api\EmailTemplatesApi();
 $id = 56; // int | id
 $status = "status_example"; // string | Status filter for draft or approved versions
 
@@ -455,7 +455,7 @@ Unapproves the current approved version of the Email Template
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\EmailTemplatesApi();
+$api_instance = new CollingMedia\Client\Api\EmailTemplatesApi();
 $id = 56; // int | id
 
 try {
@@ -500,7 +500,7 @@ Updates the content of the given email template
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\EmailTemplatesApi();
+$api_instance = new CollingMedia\Client\Api\EmailTemplatesApi();
 $id = 56; // int | id
 $update_email_template_content_request = new \CollingMedia\Client\Model\UpdateEmailTemplateContentRequest(); // \CollingMedia\Client\Model\UpdateEmailTemplateContentRequest | updateEmailTemplateContentRequest
 
@@ -547,7 +547,7 @@ Updates the metadata for the designated email template
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\EmailTemplatesApi();
+$api_instance = new CollingMedia\Client\Api\EmailTemplatesApi();
 $id = 56; // int | id
 $update_email_meta_data_request = new \CollingMedia\Client\Model\UpdateEmailTemplateMetaDataRequest(); // \CollingMedia\Client\Model\UpdateEmailTemplateMetaDataRequest | updateEmailMetaDataRequest
 

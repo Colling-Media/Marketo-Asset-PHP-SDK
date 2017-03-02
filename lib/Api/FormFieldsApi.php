@@ -4,7 +4,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  CollingMedia\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -37,7 +37,7 @@ use \CollingMedia\Client\ObjectSerializer;
  * FormFieldsApi Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  CollingMedia\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */

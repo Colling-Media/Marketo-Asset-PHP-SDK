@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  CollingMedia\Client
  * @author   Swaagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -37,7 +37,7 @@ use \ArrayAccess;
  * @category    Class */
  // @description JSON representation of a folder
 /**
- * @package     Swagger\Client
+ * @package     CollingMedia\Client
  * @author      Swagger Codegen team
  * @link        https://github.com/swagger-api/swagger-codegen
  */

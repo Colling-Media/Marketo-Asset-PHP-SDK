@@ -1,4 +1,4 @@
-# Swagger\Client\SegmentsApi
+# CollingMedia\Client\SegmentsApi
 
 All URIs are relative to *https://052-SXI-468.mktorest.com/*
 
@@ -20,7 +20,7 @@ Retrieves a list of accessible segmentations for the target instance
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\SegmentsApi();
+$api_instance = new CollingMedia\Client\Api\SegmentsApi();
 $status = "status_example"; // string | Status filter for draft or approved versions
 
 try {
@@ -65,7 +65,7 @@ Retrieves a list of segments inside the target segmentation
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\SegmentsApi();
+$api_instance = new CollingMedia\Client\Api\SegmentsApi();
 $id = 56; // int | id
 $status = "status_example"; // string | Status filter for draft or approved versions
 $offset = 56; // int | Integer offset for paging

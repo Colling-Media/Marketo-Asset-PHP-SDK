@@ -1,4 +1,4 @@
-# Swagger\Client\FoldersApi
+# CollingMedia\Client\FoldersApi
 
 All URIs are relative to *https://052-SXI-468.mktorest.com/*
 
@@ -25,7 +25,7 @@ Creates a new folder
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\FoldersApi();
+$api_instance = new CollingMedia\Client\Api\FoldersApi();
 $create_folder_request = new \CollingMedia\Client\Model\CreateFolderRequest(); // \CollingMedia\Client\Model\CreateFolderRequest | createFolderRequest
 
 try {
@@ -70,7 +70,7 @@ Deletes the designated folder.  Deletion will fail if folders ahve content
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\FoldersApi();
+$api_instance = new CollingMedia\Client\Api\FoldersApi();
 $id = 56; // int | id
 $type = "Folder"; // string | type
 
@@ -117,7 +117,7 @@ Returns the folder record with the given id
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\FoldersApi();
+$api_instance = new CollingMedia\Client\Api\FoldersApi();
 $id = 56; // int | id
 $type = "Folder"; // string | Type of folder.  'Folder' or 'Program'
 
@@ -164,7 +164,7 @@ Returns a folder record for the given name
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\FoldersApi();
+$api_instance = new CollingMedia\Client\Api\FoldersApi();
 $name = "name_example"; // string | Name of the folder.  Not applicable for Programs
 $type = "type_example"; // string | Type of folder.  'Folder' or 'Program'
 $root = "root_example"; // string | Parent folder reference
@@ -215,7 +215,7 @@ Returns records for the contents of a given folder
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\FoldersApi();
+$api_instance = new CollingMedia\Client\Api\FoldersApi();
 $id = 56; // int | id
 $max_return = 56; // int | Maximum number of channels to return.  Max 200, default 20
 $off_set = 56; // int | Integer offset for paging
@@ -266,7 +266,7 @@ Retrieves child folders from within a given root folder
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\FoldersApi();
+$api_instance = new CollingMedia\Client\Api\FoldersApi();
 $root = "root_example"; // string | Parent folder reference
 $max_depth = 56; // int | Maximum folder depth to traverse, Default 2
 $work_space = "work_space_example"; // string | Name of the workspace
@@ -315,7 +315,7 @@ Updates the metadata for a given folder
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\FoldersApi();
+$api_instance = new CollingMedia\Client\Api\FoldersApi();
 $id = 56; // int | id
 $update_folder_request = new \CollingMedia\Client\Model\UpdateFolderRequest(); // \CollingMedia\Client\Model\UpdateFolderRequest | updateFolderRequest
 

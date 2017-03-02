@@ -1,4 +1,4 @@
-# Swagger\Client\ChannelsApi
+# CollingMedia\Client\ChannelsApi
 
 All URIs are relative to *https://052-SXI-468.mktorest.com/*
 
@@ -20,7 +20,7 @@ Retrieves all channels
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\ChannelsApi();
+$api_instance = new CollingMedia\Client\Api\ChannelsApi();
 $max_return = 56; // int | Maximum number of channels to return.  Max 200, default 20
 $offset = 56; // int | Integer offset for paging
 
@@ -67,7 +67,7 @@ Retrieves channels based on the provided name
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\ChannelsApi();
+$api_instance = new CollingMedia\Client\Api\ChannelsApi();
 $name = "name_example"; // string | Name of channel to retrieve
 
 try {

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  CollingMedia\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -33,7 +33,7 @@ namespace CollingMedia\Client;
  * ApiClient Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  CollingMedia\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */

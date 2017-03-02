@@ -1,4 +1,4 @@
-# Swagger\Client\LandingPageTemplatesApi
+# CollingMedia\Client\LandingPageTemplatesApi
 
 All URIs are relative to *https://052-SXI-468.mktorest.com/*
 
@@ -30,7 +30,7 @@ Approves the current landing page template draft.  This will delete the current 
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\LandingPageTemplatesApi();
+$api_instance = new CollingMedia\Client\Api\LandingPageTemplatesApi();
 $id = 56; // int | id
 
 try {
@@ -75,7 +75,7 @@ Clones the target landing page template
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\LandingPageTemplatesApi();
+$api_instance = new CollingMedia\Client\Api\LandingPageTemplatesApi();
 $id = 56; // int | id
 $clone_lp_template_request = new \CollingMedia\Client\Model\CloneLpTemplateRequest(); // \CollingMedia\Client\Model\CloneLpTemplateRequest | cloneLpTemplateRequest
 
@@ -122,7 +122,7 @@ Creates a new landing page template
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\LandingPageTemplatesApi();
+$api_instance = new CollingMedia\Client\Api\LandingPageTemplatesApi();
 $create_lp_template_request = new \CollingMedia\Client\Model\CreateLpTemplateRequest(); // \CollingMedia\Client\Model\CreateLpTemplateRequest | createLpTemplateRequest
 
 try {
@@ -167,7 +167,7 @@ Deletes the target landing page template
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\LandingPageTemplatesApi();
+$api_instance = new CollingMedia\Client\Api\LandingPageTemplatesApi();
 $id = 56; // int | id
 
 try {
@@ -212,7 +212,7 @@ Discrads the current draft of the landing page template
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\LandingPageTemplatesApi();
+$api_instance = new CollingMedia\Client\Api\LandingPageTemplatesApi();
 $id = 56; // int | id
 
 try {
@@ -257,7 +257,7 @@ Retrieves the record for the target landing page template
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\LandingPageTemplatesApi();
+$api_instance = new CollingMedia\Client\Api\LandingPageTemplatesApi();
 $id = 56; // int | id
 $status = "status_example"; // string | Status filter for draft or approved versions
 
@@ -304,7 +304,7 @@ Retrieves the landing page template record for the given name
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\LandingPageTemplatesApi();
+$api_instance = new CollingMedia\Client\Api\LandingPageTemplatesApi();
 $name = "name_example"; // string | Name of the landing page template
 
 try {
@@ -349,7 +349,7 @@ Retrieves the content of the target landing page
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\LandingPageTemplatesApi();
+$api_instance = new CollingMedia\Client\Api\LandingPageTemplatesApi();
 $id = 56; // int | id
 $status = "status_example"; // string | Status filter for draft or approved versions
 
@@ -396,7 +396,7 @@ Retrieves the list of accessible landing page templates from the target instance
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\LandingPageTemplatesApi();
+$api_instance = new CollingMedia\Client\Api\LandingPageTemplatesApi();
 $max_return = 56; // int | Maximum number of channels to return.  Max 200, default 20
 $offset = 56; // int | Integer offset for paging
 $status = "status_example"; // string | Status filter for draft or approved versions
@@ -447,7 +447,7 @@ Unapproves the landing page template and reverts it to a draft-only state
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\LandingPageTemplatesApi();
+$api_instance = new CollingMedia\Client\Api\LandingPageTemplatesApi();
 $id = 56; // int | id
 
 try {
@@ -492,7 +492,7 @@ Updates the content for the target landing page template.  This update is destru
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\LandingPageTemplatesApi();
+$api_instance = new CollingMedia\Client\Api\LandingPageTemplatesApi();
 $id = 56; // int | id
 $content = "content_example"; // string | content
 
@@ -539,7 +539,7 @@ Updates the metadata for the target landing page template
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\LandingPageTemplatesApi();
+$api_instance = new CollingMedia\Client\Api\LandingPageTemplatesApi();
 $id = 56; // int | id
 $update_lp_template_request = new \CollingMedia\Client\Model\UpdateLpTemplateRequest(); // \CollingMedia\Client\Model\UpdateLpTemplateRequest | updateLpTemplateRequest
 

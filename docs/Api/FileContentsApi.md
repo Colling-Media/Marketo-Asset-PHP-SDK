@@ -1,4 +1,4 @@
-# Swagger\Client\FileContentsApi
+# CollingMedia\Client\FileContentsApi
 
 All URIs are relative to *https://052-SXI-468.mktorest.com/*
 
@@ -19,7 +19,7 @@ Replaces the current content of the file with the included payload
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\FileContentsApi();
+$api_instance = new CollingMedia\Client\Api\FileContentsApi();
 $request = new \CollingMedia\Client\Model\UpdateFileContentRequest(); // \CollingMedia\Client\Model\UpdateFileContentRequest | request
 
 try {
